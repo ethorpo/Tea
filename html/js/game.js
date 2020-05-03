@@ -27,20 +27,9 @@ function update() {
 //			stage2();
 //		}
 
-//}
+}
 
 function start () 
 {
-	game.scale.fullScreenScaleMode = Phaser.ScaleManager.SHOW_ALL;
 	game.add.sprite(0, 0, 'background');
-
-
-	function gofull () {
-		
-		
-			game.scale.startFullScreen(true);
-		
-	}
-
-		
 }
