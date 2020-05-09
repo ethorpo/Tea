@@ -9,18 +9,13 @@ function preload() {
 
 function create() {
 		
-		start();		
+	var image = game.add.sprite(0, 0, 'background');
+	image.inputEnabled = true;		
 		
 }
 
 function update() {
 
-		image.events.onclick = window.open("https://www.phoenixteablendinghouse.com","_self")
+	image.events.onclick = window.open("https://www.phoenixteablendinghouse.com","_self")
 
-}
-
-function start () 
-{
-	var image = game.add.sprite(0, 0, 'background');
-	image.inputEnabled = true;
 }
