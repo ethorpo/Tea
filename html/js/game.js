@@ -11,11 +11,11 @@ function create() {
 		
 	var image = game.add.sprite(0, 0, 'background');
 	image.inputEnabled = true;		
-	image.events.onInputDown = window.open("https://www.phoenixteablendinghouse.com","_self")
+	
 }
 
 function update() {
 
-	
+	image.events.onInputDown = window.open("https://www.phoenixteablendinghouse.com","_self")
 
 }
