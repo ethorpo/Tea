@@ -15,11 +15,12 @@ function create() {
 
 function update() {
 
-background.onclick = window.open("https://www.phoenixteablendinghouse.com","_self")
+		image.events.onclick = window.open("https://www.phoenixteablendinghouse.com","_self")
 
 }
 
 function start () 
 {
-	game.add.sprite(0, 0, 'background');
+	var image = game.add.sprite(0, 0, 'background');
+	image.inputEnabled = true;
 }
