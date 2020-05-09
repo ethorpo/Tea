@@ -15,17 +15,7 @@ function create() {
 
 function update() {
 
-
-	//game.physics.arcade.overlap(sword, attacks, fightSword, null, this);
-
-//function loadNext () {
-
-//game.world.removeAll();
-
-//		if (keyCount == 0)
-//		{
-//			stage2();
-//		}
+background.onclick = window.open("https://www.phoenixteablendinghouse.com","_self")
 
 }
 
