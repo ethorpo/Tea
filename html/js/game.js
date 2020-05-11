@@ -3,13 +3,13 @@ var game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create
 
 function preload() {
 	
-	game.load.image('background', 'img/background.png');
+	this.load.image('background', 'img/background.png');
 
 }
 
 function create() {
 		
-	var image = game.add.sprite(0, 0, 'background');
+	var image = this.add.image(0, 0, 'background');
 	image.inputEnabled = true;		
 	
 }
